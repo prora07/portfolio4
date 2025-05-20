@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio - Rohit Pujari </title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui@2.42.0/dist/full.js"></script>
+  <style>
+    /* Custom styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+  <header class="bg-blue-900 text-white p-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-2xl font-bold">MyPortfolio</div>
+      <button id="theme-toggle" class="p-2 rounded-full bg-gray-700 hover:bg-gray-600">
+        🌙
+      </button>
+      <!-- Tailwind CSS CDN (development use only) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
+  <style>
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-top: 1rem;
+    }
+  
+    .video-wrapper video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+  
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <section id="welcome" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">Welcome</h2>
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="rohitimage.jpeg" alt="rohit pujari" class="w-32 h-32 rounded-full shadow-lg" />
+        <p class="text-lg">Welcome to my personal portfolio website! I'm excited to share a bit about myself, my achievements, and my aspirations with you. Feel free to explore and learn more about who I am and what drives me.</p>
+      </div>
+    </section>
+
+    <div class="video-wrapper">
+        <video controls>
+          <source src="C:\Users\123\Desktop\intern\canva.mp4.mp4" type="video/webm" />
+          <source src="C:\Users\123\Desktop\intern\canva.mp4.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="text-2xl font-semibold mb-2">About me</h2>
+        <p class="mb-4">Listen to my brief audio introduction:</p>
+        <audio controls class="w-full max-w-md mx-auto block">
+          <source src= "C:\Users\123\Desktop\intern\audio.mp3.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      
+    <section id="about" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p><strong>Name:</strong> Rohit Pujari</p>
+      <p><strong>Location:</strong> Mumbai, Maharashtra, India</p>
+      <p><strong>Education:</strong> Bachelor of Engineering</p>
+      <p><strong>Languages Known:</strong></p>
+      <ul class="list-disc pl-6">
+        <li>English (Intermediate)</li>
+        <li>Hindi (Fluent)</li>
+        <li>Marathi (Basic)</li>
+      </ul>
+    </section>
+
+    <section id="achievements" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">Achievements</h2>
+      <p>academic accolades, participation in hackathons and technical events, project presentations, internships, and even securing awards and recognition for their contributions to the field <P>
+      <ul id="achievements-list" class="list-disc pl-6">
+        <!-- Achievements will be loaded here -->
+      </ul>
+    </section>
+
+    <section id="goals" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">Future Goals</h2>
+      <p>My aim is to become a software architect and lead innovative projects that positively impact people's lives. I seek to contribute to open source communities and mentor upcoming developers to foster growth and inclusivity in tech.</p>
+    </section>
+
+    <section id="personal" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">Personal Side</h2>
+      <p><strong>Hobbies:</strong> I love playing online games, photography, and reading science fiction. These hobbies inspire creativity and mindfulness in my everyday life.</p>
+      <p><strong>Favourite Role Models:</strong></p>
+      <ul class="list-disc pl-6">
+        <li>Elon Musk – For his innovative leadership and vision for the future</li>
+      </ul>
+      <p><strong>Favourite Books, Websites, and Startups:</strong></p>
+      <ul class="list-disc pl-6">
+        <li><strong>Books:</strong> "Clean Code" by Robert C. Martin, "The Pragmatic Programmer" by Andrew Hunt & David Thomas</li>
+        <li><strong>Websites:</strong> MDN Web Docs for learning web development, Hacker News for tech trends</li>
+        <li><strong>Startups:</strong> Notion – for productivity innovation; GitHub – for open source collaboration</li>
+      </ul>
+      <p><strong>Volunteering Experience:</strong> I have participated as a mentor in code clubs and contributed to non-profit tech projects focused on education and digital accessibility.</p>
+    </section>
+
+    <section id="contact" class="mb-8">
+      <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+      <p>If you'd like to get in touch, feel free to send me a message using the form below.</p>
+      <form action="mailto:123rohit2116@sjcem.edu.in" method="POST" enctype="text/plain" class="space-y-4">
+        <div>
+          <label for="name" class="block">Name:</label>
+          <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+        <div>
+          <label for="email" class="block">Email:</label>
+          <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+        <div>
+          <label for="message" class="block">Message:</label>
+          <textarea id="message" name="message" rows="4" required class="
+::contentReference[oaicite:16]{index=16}
+ 
+w-full p-2 border border-gray-300 rounded-md"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-500">Send Message</button>
+      </form>
+
+      <div class="mt-6">
+        <p><strong>Contact Information:</strong></p>
+        <ul class="list-none">
+          <li><a href="tel:+917840938958" class="text-blue-600">📞 +91 7840938958</a></li>
+          <li><a href="https://wa.me/917840938958" class="text-blue-600" target="_blank">📱 WhatsApp Chat</a></li>
+          <li><a href="mailto:123rohit2116@sjcem.edu.in" class="text-blue-600">📧 123rohit2116@sjcem.edu.in</a></li>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <p><strong>Social Media:</strong></p>
+        <ul class="flex gap-4">
+          <li><a href="https://github.com/janedoe" target="_blank" class="text-blue-600">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/janedoe" target="_blank" class="text-blue-600">LinkedIn</a></li>
+          <li><a href="https://twitter.com/janedoe" target="_blank" class="text-blue-600">Twitter</a></li>
+          <li><a href="https://instagram.com/janedoe" target="_blank" class="text-blue-600">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="mt-6">
+        <iframe
+  src="https://www.google.com/maps?q=19.705986,72.783568&hl=es;z=14&output=embed"
+  width="100%"
+  height="300"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+></iframe>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-900 text-white text-center p-4">
+    <p>&copy; 2025 Rohit Pujari | <a href="123rohit2116@sjcem.edu.in" class="text-blue-400">123rohit2116@sjcem.edu.in</a></p>
+  </footer>
+
+  <script>
+    // Theme toggle logic
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      const html = document.documentElement;
+      html.classList.toggle('dark');
+      toggleBtn.textContent = html.classList.contains('dark') ? '☀️' : '🌙';
+    });
+
+    // Fetch achievements from JSON file
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const achievementsList = document.getElementById('achievements-list');
+        data.forEach(item => {
+          const listItem = document.createElement('li');
+          listItem.textContent = `${item.title} (${item.year})`;
+          achievementsList.appendChild(listItem);
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+
+</body>
+</html>
